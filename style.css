@@ -246,6 +246,11 @@ main{
     backdrop-filter: blur(15px);
     padding-bottom: 9px;
     top: 0;
+    /* transform: translateX(360px); */
+    animation-name: responsivenav;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
 }
 #logoR{
     position: relative;
@@ -279,4 +284,10 @@ main{
     #next{
         margin-left: 0;
     }
+}
+@keyframes responsivenav {
+    from{transform: translateX(360px);}
+}
+@keyframes responsivenavsecond {
+    to{transform: translateX(360px);}
 }
