@@ -242,8 +242,9 @@ main{
     position: fixed;
     text-align: center;
     /* background-color: rgb(48, 255, 48); */
-    background: transparent;
-    backdrop-filter: blur(15px);
+/*     background: transparent; */
+/*     backdrop-filter: blur(15px); */
+    background-color: rgb(34, 133, 245);
     padding-bottom: 9px;
     top: 0;
     /* transform: translateX(360px); */
