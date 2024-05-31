@@ -1,0 +1,282 @@
+body{
+    background: url("https://images.hdqwalls.com/download/ford-mustang-gt-2019-4k-mm-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 10px;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    border-radius: 500px;
+    box-shadow: 5px 5px 20px black,-5px -5px 20px black;
+}
+.navul{
+    display: flex;
+    justify-content: center;
+}
+.navlist{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+}
+a{
+    font-family:"Kanit", sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    transition: 0.4s;
+}
+#licon{
+    margin-left: auto;
+}
+#lilogo{
+    margin-left: -20px;
+    margin-right: auto;
+    /* background-color: rgb(50, 207, 246); */
+}
+#con{
+    padding-right: 35px;
+    padding-left: 35px;
+    border: 2px solid white;
+    border-radius: 500px;
+    /* background-color: rgb(50, 207, 246); */
+}
+#logo{
+    color: rgb(48, 255, 48);
+    margin-left: 10px;
+    /* padding-bottom: 15px;
+    padding-top: 15px; */
+    padding-right: 40px;
+    border-radius: 8px;
+    padding-left: 40px;
+    border-radius: 500px;
+    font-weight: bolder;
+    /* background-color: rgb(248, 248, 248); */
+}
+#home:hover{
+    color: rgb(48, 255, 48);
+}
+#pro:hover{
+    color: rgb(48, 255, 48);
+}
+#about:hover{
+    color: rgb(48, 255, 48);
+}
+#blog:hover{
+    color: rgb(48, 255, 48);
+}
+#con:hover{
+    color: rgb(23, 23, 23);
+    border: 2px solid rgb(48, 255, 48);
+    background-color: rgb(48, 255, 48);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-family: "Kanit", sans-serif;
+}
+.maincontainer{
+    margin-right: 20px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    font-family: "Kanit", sans-serif;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 1000px;
+    margin-top: 30px;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 10px 10px 20px black;
+}
+.btn:hover{
+    border: 2px solid rgb(48, 255, 48);
+    background-color: rgb(48, 255, 48);
+    color: black;
+}
+#next{
+    margin-left: 20px;
+}
+.head{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 6px 3px rgb(0, 0, 0);
+}
+.pera{
+    background: transparent;
+    /* backdrop-filter: blur(10px); */
+    /* box-shadow: 15px 10px 20px black; */
+    /* padding: 20px; */
+    /* border-radius: 15px; */
+}
+.pera::selection{
+    color: black;
+    background-color: rgb(48, 255, 48);
+}
+.head::selection{
+    text-shadow: none;
+    color: black;
+    background-color: rgb(48, 255, 48);
+}
+.procontainer{
+    font-family: "Kanit", sans-serif;
+    /* display: flex; */
+    margin-top: 20px;
+    background-color: aqua;
+    color: white;
+    position: fixed;
+    /* padding: 20px; */
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0),-10px -10px 20px rgb(0, 0, 0);
+    display: none;
+    transition: 0.4s;
+}
+.limenu{
+    font-size: 18px;
+    padding: 20px;
+    cursor: pointer;
+    list-style: none;
+}
+#pro:hover + .procontainer{
+    display: flex;
+    transition: 0.4s;
+}
+.procontainer:hover{
+    display: flex;
+}
+#pro{
+    padding-bottom: 20px;
+    transition: 0.4s;
+}
+.limenu:hover{
+    color: black;
+    background-color: rgb(48, 255, 48);
+}
+.limenu{
+    transition: 0.5s;
+    padding-right: 100px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+#lambo{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#toyota{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#bar{
+    /* display: flex; */
+    position: fixed;
+    /* justify-content: flex-end; */
+    /* margin-top: 40px; */
+    top: 35px;
+    right: 20px;
+    display: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.35s;
+}
+#bar:hover{
+    color: rgb(48, 255, 48);
+}
+#croos{
+    position: fixed;
+    top: 35px;
+    right: 20px;
+    display: none;
+    color: white;
+    transition: 0.35s;
+}
+#croos:hover{
+    color: rgb(48, 255, 48);
+}
+
+#logores{
+    position: relative;
+    font-family: "Kanit", sans-serif;
+    color: rgb(48, 255, 48);
+    font-weight: bold;
+    font-size: 26px;
+    top: -590px;
+    display: none;
+}
+.navlistR{
+    list-style: none;
+    transition: 0.25s;
+    height: 16.66%;
+}
+#navulR{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: fixed;
+    text-align: center;
+    /* background-color: rgb(48, 255, 48); */
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding-bottom: 9px;
+    top: 0;
+}
+#logoR{
+    position: relative;
+    font-family: "Kanit", sans-serif;
+    color: rgb(48, 255, 48);
+    font-weight: bold;
+    font-size: 26px;
+}
+#lilogoR{
+    margin-top: 10px;
+    list-style: none;
+}
+.resA:hover{
+    color: rgb(48, 255, 48);
+}
+
+/* Responsive Web Design */
+
+@media (max-width: 920px) {
+    .navbar{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+    #logores{
+        display: block;
+    }
+}
+@media (max-width: 450px) {
+    #next{
+        margin-left: 0;
+    }
+}
